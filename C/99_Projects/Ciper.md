@@ -12,6 +12,3 @@ Write a C program that can both encrypt and decrypt messages using a simple ciph
     - Decrypt the message using the code and display the original message.
 
 Use a simple Caesar cipher (shifting each character by the code value) for encryption and decryption.
-
-This project should be done again when you have learned 2D arrays.
-Then it should simply have the cipher done using matrices.
