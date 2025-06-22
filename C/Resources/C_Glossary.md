@@ -1,0 +1,80 @@
+# C Programming Glossary
+
+A comprehensive glossary of terms found and needed for understanding C programming, based on all exercises, projects, and code files in this course. All definitions are linted for Markdown best practices.
+
+---
+
+- **Address**: The location in memory where a variable or data is stored (e.g., `0x1234`).
+- **Algorithm**: A step-by-step procedure for solving a problem or performing a computation.
+- **Array**: A collection of elements of the same type stored in contiguous memory locations, accessed by index.
+- **Assignment**: Setting a variable to a value using the `=` operator.
+- **Binary**: The base-2 number system, using only 0 and 1, fundamental to computer operations.
+- **Block**: A group of statements enclosed in braces `{}`.
+- **Boolean**: A data type with two possible values: true (1) or false (0). In C, use `<stdbool.h>` and `bool`.
+- **Buffer**: A temporary storage area, often for input/output operations.
+- **Buffer Overflow**: An error that occurs when data is written past the end of an array or buffer.
+- **Call by Reference**: Passing the address of a variable to a function so it can modify the original value.
+- **Call by Value**: Passing a copy of a variable’s value to a function.
+- **Cast / Type Casting**: Converting a variable from one data type to another (e.g., `(float) x`).
+- **Char**: A data type for storing single characters (e.g., `'A'`).
+- **Comment**: Text in code ignored by the compiler, used for documentation. Single-line: `//`, multi-line: `/* ... */`.
+- **Compiler**: A tool that translates C code into machine code that the computer can execute.
+- **Condition**: An expression that evaluates to true or false, used in control flow statements.
+- **Constant**: A value that does not change during program execution, declared with `const` or `#define`.
+- **Data Structure**: A way of organizing and storing data (e.g., arrays, structs).
+- **Data Type**: Defines what kind of data a variable holds (e.g., `int`, `char`, `float`).
+- **Debugging**: The process of finding and fixing errors in code.
+- **Dereferencing**: Using `*` to access or modify the value at a pointer’s address.
+- **Do...While Loop**: A loop that executes at least once and repeats as long as a condition is true.
+- **Dynamic Memory Allocation**: Allocating memory at runtime using functions like `malloc`, `calloc`, and freeing with `free`.
+- **Enum**: A user-defined type consisting of named integer constants.
+- **Expression**: A combination of variables, constants, and operators that yields a value.
+- **Float**: A data type for storing decimal (floating-point) numbers.
+- **For Loop**: A loop that repeats a block of code a specific number of times.
+- **Function**: A named block of code that performs a specific task and can be called from elsewhere in the program.
+- **Function Pointer**: A pointer that stores the address of a function.
+- **Function Prototype**: A declaration of a function that specifies its name, return type, and parameters.
+- **Global Variable**: A variable declared outside all functions, accessible throughout the program.
+- **Header File**: A file with a `.h` extension containing declarations and macros, included with `#include`.
+- **Heap**: The area of memory used for dynamic allocation.
+- **If Statement**: A control structure that executes code based on a condition.
+- **Include Directive**: `#include` is a preprocessor command to include the contents of a file (usually a header file).
+- **Initialization**: Assigning an initial value to a variable at the time of declaration.
+- **Input/Output (I/O)**: Reading from input (e.g., `scanf`) and writing to output (e.g., `printf`).
+- **Input Validation**: Checking user input to ensure it meets required criteria before processing.
+- **Int**: A data type for storing integers (whole numbers).
+- **Integer**: A whole number, positive or negative, without decimals.
+- **Iteration**: Repeating a set of instructions, typically using loops.
+- **Library**: A collection of pre-written code (e.g., `<stdio.h>`, `<string.h>`).
+- **Literal**: A fixed value in code (e.g., `5`, `'A'`, `"hello"`).
+- **Local Variable**: A variable declared inside a function, only accessible within that function.
+- **Loop**: A programming construct that repeats a block of code (e.g., `for`, `while`, `do...while`).
+- **Main Function**: The entry point of a C program: `int main() { ... }`.
+- **Malloc**: A function that allocates memory dynamically and returns a pointer to it.
+- **Memory**: The computer’s storage where variables and data are kept while a program runs.
+- **Memory Leak**: When allocated memory is not freed, causing wasted resources.
+- **Null Character**: The character `\0` that marks the end of a string in C.
+- **Null Pointer**: A pointer that points to nothing (value `NULL`).
+- **Operator**: A symbol that performs an operation (e.g., `+`, `-`, `*`, `/`, `==`).
+- **Parameter**: A variable in a function definition that receives a value when the function is called.
+- **Pointer**: A variable that stores a memory address.
+- **Pointer Arithmetic**: Math with pointers (e.g., `p + 1`) to move to another memory location.
+- **Preprocessor**: A tool that processes directives (like `#include`, `#define`) before compilation.
+- **Recursion**: A function calling itself to solve a problem.
+- **Return Statement**: The `return` keyword ends a function and optionally sends a value back to the caller.
+- **Return Value**: The value a function gives back when it finishes.
+- **Scope**: Where a variable can be accessed in code (local, global, block).
+- **Stack**: The area of memory used for function calls and local variables.
+- **Standard Library**: A collection of commonly used C functions, such as those in `<stdio.h>`, `<stdlib.h>`, `<string.h>`.
+- **Static Variable**: A variable that keeps its value between function calls.
+- **Statement**: A single instruction in a program (e.g., assignment, function call).
+- **String**: A sequence of characters ending with `\0` (e.g., `"hello"`).
+- **Struct**: A user-defined data type that groups variables of different types.
+- **Syntax**: The rules that define the structure of valid C code.
+- **Type Definition (`typedef`)**: A keyword to create a new name for an existing type.
+- **Uninitialized Pointer**: A pointer that has not been assigned a valid address.
+- **Variable**: A named place to store data, like a box with a label for a number or letter.
+- **Void**: A type that means "no value" or "no type"; used for functions that do not return a value.
+- **While Loop**: A loop that repeats as long as a condition is true.
+
+---
