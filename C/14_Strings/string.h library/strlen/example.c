@@ -8,7 +8,7 @@ int main() {
 
     // Input string
     printf("Enter a string: ");
-    scanf("%s", str); // Read string input
+    scanf("%99s", str); // Read string input
 
     // Use strlen to find the length
     length = strlen(str); // strlen returns the number of characters (excluding null terminator)

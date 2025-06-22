@@ -8,7 +8,7 @@ int main() {
 
     // Input source string
     printf("Enter a string to copy: ");
-    scanf("%s", source); // Read string input
+    scanf("%99s", source); // Read string input
 
     // Use strcpy to copy the string
     strcpy(destination, source); // strcpy copies source string to destination
