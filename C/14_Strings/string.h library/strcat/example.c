@@ -8,11 +8,11 @@ int main() {
 
     // Input first string
     printf("Enter first string: ");
-    scanf("%s", str1); // Read first string input
+    scanf("%49s", str1); // Read first string input
 
     // Input second string
     printf("Enter second string: ");
-    scanf("%s", str2); // Read second string input
+    scanf("%49s", str2); // Read second string input
 
     // Display original strings
     printf("\nBefore concatenation:\n");
