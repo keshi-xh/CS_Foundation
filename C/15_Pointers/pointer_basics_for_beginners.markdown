@@ -9,7 +9,7 @@ A **pointer** is a variable that stores the **memory address** of another variab
 - **Dereferencing**: `*p` gets or changes the value at the address in `p`.
 - **Address-of Operator**: `&` gives a variable’s address (`&x`).
 
-#### Example: Declaration and Initialization
+### Example: Declaration and Initialization
 
 ```c
 int x = 5;
