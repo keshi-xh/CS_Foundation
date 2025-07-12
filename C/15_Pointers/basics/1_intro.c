@@ -6,7 +6,7 @@
 // EXAMPLE 1: BASIC POINTER CONCEPTS
 // ==================================================
 
-void example1_basic_pointers() {
+void main() {
     printf("=== EXAMPLE 1: BASIC POINTER CONCEPTS ===\n");
     
     // Regular variable
