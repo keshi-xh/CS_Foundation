@@ -38,7 +38,7 @@ int main() {
         printf("  Array address: %p\n", (void*)names_arr[i]);
         printf("  Contains: \"%s\"\n", names_arr[i]);
         printf("  Allocated space: %zu bytes\n", sizeof(names_arr[i]));
-        printf("  Actual memory used: %zu bytes\n\n", sizeof(names_arr[i]));
+        printf("  Actual memory used: %zu bytes\n\n", (strlen(names_arr[i]) + 1) * sizeof(char));
     }
 
     printf("\n========== KEY DIFFERENCES ==========\n");
