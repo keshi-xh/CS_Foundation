@@ -23,7 +23,7 @@ int main() {
         printf("  Pointer address: %p\n", (void*)names_ptr[i]);
         printf("  Points to: \"%s\"\n", names_ptr[i]);
         printf("  String size: %zu bytes\n", sizeof(names_ptr[i]));
-        printf("  Actual memory used: %zu bytes\n\n", (strlen(*names_ptr[i])+1) * sizeof(char));
+        printf("  Actual memory used: %zu bytes\n\n", (strlen(names_ptr[i]) + 1) * sizeof(char));
         // Note: sizeof("Alice") includes null terminator
     }
 
