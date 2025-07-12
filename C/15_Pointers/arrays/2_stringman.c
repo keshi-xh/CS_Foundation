@@ -5,7 +5,7 @@
 // ==================================================
 
 void main() {
-    printf("=== EXAMPLE 5: STRINGS ===\n");
+    printf("=== EXAMPLE 2: STRINGS ===\n");
     
     // String as character array
     char str_array[] = "Hello World";  // Stored in stack, modifiable
