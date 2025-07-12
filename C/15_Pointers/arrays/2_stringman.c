@@ -2,7 +2,7 @@
 // EXAMPLE 2: STRINGS - ARRAY vs POINTER
 // ==================================================
 
-void example5_strings() {
+void main() {
     printf("=== EXAMPLE 5: STRINGS ===\n");
     
     // String as character array
